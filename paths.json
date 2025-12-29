@@ -1,10 +1,17 @@
+
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/GMR/en/:/",
+    "/content/GMR/en/:/en/",
+    "/content/GMR/fr_fr/:/fr/",
+    "/content/GMR/configuration:/.helix/config.json",
+    "/content/GMR/metadata:/metadata.json",
+    "/content/aero-gmr/en/:/aero-gmr/",
+    "/content/aero-gmr/configuration:/.helix/config.json",
+    "/content/aero-gmr/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/GMR/",
+    "/content/aero-gmr/"
   ]
 }
